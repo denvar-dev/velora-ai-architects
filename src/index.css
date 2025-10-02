@@ -74,6 +74,15 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground font-['Inter',sans-serif] antialiased;
   }
+
+  /* Hide Lovable badge */
+  #lovable-badge,
+  [data-lovable-badge],
+  iframe[src*="lovable"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
 }
 
 @layer utilities {
