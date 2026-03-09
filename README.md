@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+[velora-ai-README.md](https://github.com/user-attachments/files/25841424/velora-ai-README.md)
+# 🤖 Velora AI — Workflow Automation for Architecture & Construction Businesses
 
-## Project info
+Velora AI is an early-stage SaaS product that automates repetitive workflows for architecture firms and construction businesses — from client intake to project tracking to document generation.
 
-**URL**: https://lovable.dev/projects/11f16a0f-9e82-499b-9ca0-35b6bbe62a2a
+**Status:** MVP in development
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎯 The Problem
 
-**Use Lovable**
+Architecture and construction businesses waste hours every week on:
+- Manual client onboarding and follow-ups
+- Chasing approvals via email chains
+- Generating repetitive project documents
+- Tracking project milestones across spreadsheets
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/11f16a0f-9e82-499b-9ca0-35b6bbe62a2a) and start prompting.
+Velora AI replaces all of this with automated workflows.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✨ Core Features (MVP)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Client Intake Automation** — Smart forms that auto-populate project data
+- **Document Generation** — Auto-generate proposals, contracts, and reports
+- **Project Milestone Tracker** — Visual dashboard with automated status updates
+- **Notification Engine** — Auto email/SMS alerts to clients at each project stage
+- **Team Collaboration** — Assign tasks, track progress, no meetings needed
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Frontend:** React.js, TypeScript, Tailwind CSS, shadcn/ui
+- **Build Tool:** Vite
+- **Backend:** Node.js (planned)
+- **Database:** Supabase / PostgreSQL (planned)
+- **AI Layer:** Claude API for document generation and workflow suggestions
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/denvar-dev/velora-ai-architects.git
+cd velora-ai-architects
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🗺️ Roadmap
 
-**Use GitHub Codespaces**
+- [x] Project scaffold and UI structure
+- [x] Core component library setup
+- [ ] Client intake flow (in progress)
+- [ ] Document generation engine
+- [ ] Dashboard with live project tracking
+- [ ] Payment integration (Stripe)
+- [ ] Beta launch
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 💡 Target Users
 
-This project is built with:
+- Architecture firms (5–50 employees)
+- Construction project managers
+- Civil engineering consultancies
+- Interior design studios
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📬 Interested in Early Access or Collaboration?
 
-Simply open [Lovable](https://lovable.dev/projects/11f16a0f-9e82-499b-9ca0-35b6bbe62a2a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Contact:** junaidpirjade1306@gmail.com
